@@ -22,3 +22,15 @@ Push til repository på nett
 3. passord = "Zeebra12"
 
 DONE
+
+
+
+
+
+    Logging in:
+        ssh username@129.241.187.### where ### is the remote IP
+    Copying files between machines:
+        scp source destination, with optional flag -r for recursive copy (folders)
+        Examples:
+            Copying files to remote: scp -r fileOrFolderAtThisMachine username@129.241.187.###:fileOrFolderAtOtherMachine
+            Copying files from remote: scp -r username@129.241.187.###:fileOrFolderAtOtherMachine fileOrFolderAtThisMachine
