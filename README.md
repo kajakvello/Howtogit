@@ -23,9 +23,7 @@ Push til repository på nett
 
 DONE
 
-
-
-
+KOPIERE FILER TIL OG LOGGI INN PÅ ANNEN PC REMOTE
 
     Logging in:
         ssh username@129.241.187.### where ### is the remote IP
@@ -34,3 +32,10 @@ DONE
         Examples:
             Copying files to remote: scp -r fileOrFolderAtThisMachine username@129.241.187.###:fileOrFolderAtOtherMachine
             Copying files from remote: scp -r username@129.241.187.###:fileOrFolderAtOtherMachine fileOrFolderAtThisMachine
+            
+            
+            
+HENTE COMMIT FRA HISTORY OG GJØRE DEN TIL MASTER
+
+git fetch origin
+git reset --hard YOUR_SHA_HERE
