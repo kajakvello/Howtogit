@@ -35,8 +35,10 @@ KOPIERE FILER TIL OG LOGGI INN PÅ ANNEN PC REMOTE
             
             
             
-HENTE COMMIT FRA HISTORY OG GJØRE DEN TIL MASTER
+HENTE COMMIT FRA BRANCH
 
-git fetch origin
-
-git reset --hard YOUR_SHA_HERE
+1. Gå inn i Documents
+2. {git clone "link til heis2 repository"} (linken finnes på "forsiden" til heis2-repository)
+3. Slett alle mapper i Documents (ja, serr...)
+4. {git fetch origin}
+5. {git reset --hard "SHA-link til den spesifikke commiten som ligger i history"}
